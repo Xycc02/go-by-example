@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 
-	s := make([]string, 3)
+	s := make([]string, 3) //创建切片(动态数组 扩容)
 	s[0] = "a"
 	s[1] = "b"
 	s[2] = "c"
